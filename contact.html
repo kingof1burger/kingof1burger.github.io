@@ -57,7 +57,7 @@
 			<section class="contact-page-area section-gap">
 				<div class="container">
 					<div class="row">
-						<<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.9635607625382!2d77.30891584778577!3d28.570856913230095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce443ba41023b%3A0x1da3eb684ea743f0!2sApeejay%20School%20-%20Noida!5e0!3m2!1sen!2sin!4v1687842821666!5m2!1sen!2sin" width="600" height="450" style="border:0; padding-bottom: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.9635607625382!2d77.30891584778577!3d28.570856913230095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce443ba41023b%3A0x1da3eb684ea743f0!2sApeejay%20School%20-%20Noida!5e0!3m2!1sen!2sin!4v1687842821666!5m2!1sen!2sin" width="600" height="450" style="border:0; padding-bottom: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">
@@ -92,8 +92,10 @@
 						<div class="col-lg-8">
 							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
 								<div class="row">
-								        <form class="form-wrap" action="https://formsubmit.co/b418c15732ae8b4534e5cf1798715e32" method="POST">
-								   	<div class="col-lg-6 form-group">
+									<form class="form-wrap" action="https://formsubmit.co/b418c15732ae8b4534e5cf1798715e32" method="POST">
+									<input type="hidden" name="_next" value="https://kingof1burger.github.io/thankyou.html">
+									<input type="email" class="form-control" name="email" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '">
+									<div class="col-lg-6 form-group">
 									                <input type="hidden" name="_next" value="https://kingof1buger.github.io/thankyou.html">
 									                <input type="email" name="email" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Adress'" class="common-input mb-20 form-control" required="">
 									         	<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
@@ -105,8 +107,7 @@
 									<div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
 										<button class="genric-btn primary" style="float: right;">Send Message</button>											
-									</div>
-									</form>
+									</div>								
 								</div>
 							</form>	
 						</div>
