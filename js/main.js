@@ -12,14 +12,12 @@ $(document).ready(function() {
     $(".fitscreen").css("height", fitscreen);
 
 
-    // ------- Datepicker  js --------//  
 
       $( function() {
         $( ".date-picker" ).datepicker();
       } );
 
 
-    //------- Niceselect  js --------//  
 
     if (document.getElementById("default-select")) {
         $('select').niceSelect();
@@ -31,7 +29,6 @@ $(document).ready(function() {
         $('select').niceSelect();
     };    
 
-    //------- Lightbox  js --------//  
 
     $('.img-gal').magnificPopup({
         type: 'image',
@@ -48,7 +45,6 @@ $(document).ready(function() {
         fixedContentPos: false
     });
 
-    //------- Superfish nav menu  js --------//  
 
     $('.nav-menu').superfish({
         animation: {
@@ -58,8 +54,6 @@ $(document).ready(function() {
     });
 
 
-
-    //------- Owl Carusel  js --------//  
 
     $('.active-hot-deal-carusel').owlCarousel({
         items:1,
@@ -117,7 +111,6 @@ $(document).ready(function() {
             }
         }); 
 
-    //------- Mobile Nav  js --------//  
 
     if ($('#nav-menu-container').length) {
         var $mobile_nav = $('#nav-menu-container').clone().prop({
@@ -157,8 +150,6 @@ $(document).ready(function() {
     } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }
-
-    //------- Smooth Scroll  js --------//  
 
     $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -221,16 +212,13 @@ $(document).ready(function() {
 
 
     jQuery(document).ready(function($) {
-        // Get current path and find target link
         var path = window.location.pathname.split("/").pop();
 
-        // Account for home page with empty path
         if (path == '') {
             path = 'index.html';
         }
 
         var target = $('nav a[href="' + path + '"]');
-        // Add active class to target link
         target.addClass('menu-active');
     });
 
@@ -242,9 +230,6 @@ $(document).ready(function() {
 
 
 
-
-    //------- Header Scroll Class  js --------//  
-
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('#header').addClass('header-scrolled');
@@ -252,8 +237,7 @@ $(document).ready(function() {
             $('#header').removeClass('header-scrolled');
         }
     });
-
-    //------- Google Map  js --------//  
+ 
 
 });
 
