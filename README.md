@@ -9,4 +9,6 @@ All other buttons such as the buttons in hotels and packages page do not work bu
 
 The website is fully responsive on all devices and should also function just as well on all browsers as it did on my main browser.
 
-Attached I have also given a video tour of the website.
+Attached I have also given a video tour of the website. (Note: at the end of the video in phone view the screen became stretched, that was just to fill the empty spaces in the screen recording and the website would look normal on the phone).
+
+To try out the website yourself go onto kingof1burger.github.io
